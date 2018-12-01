@@ -1,0 +1,28 @@
+{
+  "name": "mailchimpapi",
+  "version": "1.0.0",
+  "description": "simple newsletter app using Mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnanath/MailchimpAPI.git"
+  },
+  "author": "Krishnanath Maly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnanath/MailchimpAPI/issues"
+  },
+  "homepage": "https://github.com/krishnanath/MailchimpAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
