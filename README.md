@@ -1,6 +1,6 @@
-\*\* Newsletter Signup APP - Mailchimp API
+## Newsletter Signup APP - Mailchimp API
 
-\*\*\* Installation dependencies
+### Installation dependencies
 
 ```
 npm install express request body-parser
