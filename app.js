@@ -30,14 +30,16 @@ app.post('/signup', (req, res)=> {
        members: [
            {
                email_address:email,
-               status:'subscriber',
+               status:'subscribed',
                merge_fields:{
                    FNAME: firstName,
                    LNAME: lastName
                }
            }
        ]
-   }
+   };
+
+
 
    const postData = JSON.stringify(data);
 
